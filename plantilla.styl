@@ -1,0 +1,488 @@
+background = #4a4a4a
+body = #0a0a0a
+line = #a0a0a0
+
+pintas(column, column2, row, row2, color)
+    grid-column-start: column
+    grid-column-end: column2 
+    grid-row: row
+    grid-row-end: row2
+    background-color: color
+
+main
+    width: 100vw;
+    height: 100vh;
+    background-color: background;
+
+.pokemon
+    display grid
+    grid-template-columns: repeat(35, 35px)
+    grid-template-rows: repeat(35, 35px)
+    justify-content: center
+    align-content: center
+
+.one
+    pintas(15, 20, 3, 4, line)
+
+.two
+    pintas(20, 22, 4, 5, line)
+
+.three
+    pintas(13, 15, 4 , 5, line)
+
+.four
+    pintas(15, 20, 4, 5, body)
+
+.five
+    pintas(12, 13, 5, 6, line)
+
+.six
+    pintas(22, 23, 5, 6, line)
+
+.seven
+    pintas(13, 22, 5, 6, body)
+
+.eight
+    pintas(11, 12, 6, 8, line)
+
+.nine
+    pintas(23, 24, 6, 7, line)
+
+.ten
+    pintas(12, 22, 6, 8, body)
+
+.eleven
+    pintas(23, 24, 7, 13, body)
+
+.twelve
+    pintas(24, 25, 7, 10, line)
+
+.thirteen
+    pintas(25, 29, 8, 9, line)
+
+.fourteen
+    pintas(29, 30, 9, 13, line)
+
+.fifteen
+    pintas(25, 29, 9, 13, body)
+
+.sixteen
+    pintas(24, 25, 10, 12, body)
+
+.seventeen
+    pintas(24, 25, 12, 13, line)
+
+.eighteen
+    pintas(24, 29, 13, 14, line)
+
+.nineteen
+    pintas(11, 23, 8, 12, body)
+
+.twenty
+    pintas(10, 11, 8, 12, line)
+
+.twenty-one
+    pintas(22, 23, 6, 8, body)
+
+.twenty-two
+    pintas(11, 12, 12, 14, line)
+
+.twenty-three
+    pintas(12, 24, 12, 14, body)
+
+.twenty-four
+    pintas(12, 13, 14, 15, line)
+
+.twenty-five
+    pintas(13, 23, 14, 15, body)
+
+//LINEA GRANDE
+.twenty-six
+    pintas(23, 24, 14, 15, line)
+
+.twenty-seven
+    pintas(13, 14, 15, 16, line)
+
+.twenty-eight
+    pintas(14, 21, 15, 16, body)
+
+.twenty-nine
+    pintas(21, 23, 15, 16, line)
+
+.thirty
+    pintas(10, 15, 16, 17, line)
+
+.thirty-one
+    pintas(15, 17, 16, 17, body)
+
+.thirty-two
+    pintas(17, 21, 16, 17, line)
+
+.thirty-three
+    pintas(8, 10, 17, 18, line)
+
+.thirty-four
+    pintas(10, 18, 17, 18, body)
+
+.thirty-five
+    pintas(18, 19, 17, 18, line)
+
+.thirty-six
+    pintas(7, 8, 18, 19, line)
+
+.thirty-seven
+    pintas(8, 19, 18, 19, body)
+
+.thirty-eight
+    pintas(6, 7, 19, 21, line)
+
+.thirty-nine
+    pintas(7, 11, 19, 20, body)
+
+.forty
+    pintas(11, 13, 19, 24, line) //Posible
+
+.forty-one
+    pintas(7, 10, 20, 21, body)
+
+.forty-two
+    pintas(10, 11, 20, 21, line)
+
+.forty-three
+    pintas(5, 6, 21, 24, line)
+
+.forty-four
+    pintas(6, 11, 21, 24, body)
+
+.forty-five
+    pintas(6, 7, 24, 25, line)
+
+.forty-six
+    pintas(7, 10, 24, 25, body)
+
+.forty-seven
+    pintas(10, 12, 24, 25, line)
+
+
+.forty-eight
+    pintas(7, 11, 25, 26, line)
+
+.forty-nine
+    pintas(13, 19, 19, 24, body)
+
+.fifty
+    pintas(19, 20, 18, 19, line)
+
+.fifty-one
+    pintas(19, 22, 19, 20, line)
+
+.fifty-two
+    pintas(22, 23, 18, 19, line)
+
+.fifty-three
+    pintas(22, 23, 19, 22, body)
+
+.fifty-four
+    pintas(23, 26, 17, 18, line)
+
+.fifty-five
+    pintas(23, 26, 18, 23, body)
+
+.fifty-six
+    pintas(26, 27, 18, 19, line)
+
+.fifty-seven
+    pintas(26, 27, 19, 22, body)
+
+.fifty-eight
+    pintas(27, 28, 19, 22, line)
+
+.fifty-nine
+    pintas(26, 27, 22, 23, line)
+
+.sixty-one
+    pintas(23, 26, 23, 24, line)
+
+.sixty-two
+    pintas(19, 23, 22, 23, line)
+
+.sixty-three
+    pintas(19, 22, 20, 22, body)
+
+.sixty-four
+    pintas(19, 20, 23, 24, line)
+
+.sixty-five
+    pintas(12, 15, 24, 25, body)
+
+.sixty-six
+    pintas(15, 17, 24, 25, line)
+
+.sixty-seven
+    pintas(17, 20, 24, 25, body)
+
+.sixty-eight
+    pintas(20, 21, 24, 25, line)
+
+.sixty-nine
+    pintas(11, 15, 25, 26, body)
+
+.seventy
+    pintas(15, 16, 25, 26, line)
+
+.seventy-one
+    pintas(17, 18, 25, 28, line)
+
+.seventy-two
+    pintas(18, 21, 25, 27, body)
+
+
+.seventy-three
+    pintas(21, 22, 25, 26, line)
+
+.seventy-four
+    pintas(21, 25, 26, 27, line)
+
+.seventy-five
+    pintas(18, 25, 27, 30, body)
+
+.seventy-six
+    pintas(25, 26, 27, 28, line)
+
+.seventy-seven
+    pintas(25, 26, 28, 30, body)
+
+.seventy-eight
+    pintas(26, 27, 28, 31, line)
+
+.seventy-nine
+    pintas(7, 27, 30, 31, line)
+
+.eighty
+    pintas(7, 8, 28, 30, line)
+
+.eighty-one
+    pintas(8, 16, 28, 30, body)
+
+.eighty-two
+    pintas(16, 17, 28, 30, line)
+
+.eighty-three
+    pintas(8, 9, 27, 28, line)
+
+.eighty-four
+    pintas(9, 15, 27, 28, body)
+
+.eighty-five
+    pintas(15, 16, 27, 28, line)
+
+.eighty-six
+    pintas(9, 10, 26, 27, line)
+
+.eighty-seven
+    pintas(10, 14, 26, 27, body)
+
+.eighty-eight
+    pintas(14, 15, 26, 27, line)
+
+.eighty-nine
+    pintas(17, 18, 28, 30, body)
+
+.ninety
+    pintas(1, 1, 1, 1, white)
+
+.ninety-one
+    pintas(1, 1, 1, 1, white)
+
+.ninety-two
+    pintas(1, 1, 1, 1, white)
+
+.ninety-three
+    pintas(1, 1, 1, 1, white)
+
+.ninety-four
+    pintas(1, 1, 1, 1, white)
+
+.ninety-five
+    pintas(1, 1, 1, 1, white)
+
+.ninety-six
+    pintas(1, 1, 1, 1, white)
+
+.ninety-seven
+    pintas(1, 1, 1, 1, white)
+
+.ninety-eight
+    pintas(1, 1, 1, 1, white)
+
+.ninety-nine
+    pintas(1, 1, 1, 1, white)
+
+.one-hundred
+    pintas(1, 1, 1, 1, white)
+
+.one-hundred-one
+    pintas(1, 1, 1, 1, white)
+
+.one-hundred-two
+    pintas(1, 1, 1, 1, white)
+
+.one-hundred-three
+    pintas(1, 1, 1, 1, white)
+
+.one-hundred-four
+    pintas(1, 1, 1, 1, white)
+
+.one-hundred-five
+    pintas(1, 1, 1, 1, white)
+
+.one-hundred-six
+    pintas(1, 1, 1, 1, white)
+
+.one-hundred-seven
+    pintas(1, 1, 1, 1, white)
+
+.one-hundred-eight
+    pintas(1, 1, 1, 1, white)
+
+.one-hundred-nine
+    pintas(1, 1, 1, 1, white)
+
+.one-hundred-ten
+    pintas(1, 1, 1, 1, white)
+
+.one-hundred-eleven
+    pintas(1, 1, 1, 1, white)
+
+.one-hundred-twelve
+    pintas(1, 1, 1, 1, white)
+
+.one-hundred-thirteen
+    pintas(1, 1, 1, 1, white)
+
+.one-hundred-fourteen
+    pintas(1, 1, 1, 1, white)
+
+
+.one-hundred-fifteen
+    pintas(1, 1, 1, 1, white)
+
+.one-hundred-sixteen
+    pintas(1, 1, 1, 1, white)
+
+
+.one-hundred-twenty-one
+    pintas(1, 1, 1, 1, white)
+
+
+.one-hundred-seventeen
+    pintas(1, 1, 1, 1, white)
+
+
+.one-hundred-twenty-two
+    pintas(1, 1, 1, 1, white)
+
+
+.one-hundred-eighteen
+    pintas(1, 1, 1, 1, white)
+
+.one-hundred-nineteen
+    pintas(1, 1, 1, 1, white)
+
+.one-hundred-twenty
+    pintas(1, 1, 1, 1, white)
+
+.one-hundred-twenty-three
+    pintas(1, 1, 1, 1, white)
+
+.one-hundred-twenty-four
+    pintas(1, 1, 1, 1, white)
+
+.one-hundred-twenty-five
+    pintas(1, 1, 1, 1, white)
+
+.one-hundred-twenty-six
+    pintas(1, 1, 1, 1, white)
+
+.one-hundred-twenty-seven
+    pintas(1, 1, 1, 1, white)
+
+.one-hundred-twenty-eight
+    pintas(1, 1, 1, 1, white)
+
+.one-hundred-twenty-nine
+    pintas(1, 1, 1, 1, white)
+
+.one-hundred-thirty-one
+    pintas(1, 1, 1, 1, white)
+
+.one-hundred-thirty-two 
+    pintas(1, 1, 1, 1,white)
+
+.one-hundred-thirty-three 
+    pintas(1, 1, 1, 1, white)
+.one-hundred-thirty-four
+    pintas(31, 1, 1, 1, white)
+.one-hundred-thirty-five
+    pintas(7, 8, 1, 1, white)
+.one-hundred-thirty-six 
+    pintas(8, 15, 1, 1, white)
+.one-hundred-thirty-seven 
+    pintas(15, 1, 1, 1, white)
+.one-hundred-thirty-eight 
+    pintas(1, 1, 1, 1, white)
+.one-hundred-thirty-nine
+    pintas(1, 1, 1, 1, white)
+
+.one-hundred-forty
+    pintas(1, 1, 1, 1, white)
+.one-hundred-forty-one
+    pintas(1, 1, 1, 1, white)
+.one-hundred-forty-two 
+    pintas(1, 1, 1, 1, white)
+.one-hundred-forty-three 
+    pintas(1, 1, 1, 1, white)
+.one-hundred-forty-four
+    pintas(1, 1, 1, 1, white)
+.one-hundred-forty-five
+    pintas(1, 1, 1, 1, white)
+.one-hundred-forty-six 
+    pintas(1, 31, 1, 1, white)
+.one-hundred-forty-seven 
+    pintas(8, 9, 1, 1, white)
+.one-hundred-forty-eight 
+    pintas(9, 15, 1, 1, white)
+.one-hundred-forty-nine
+    pintas(1, 1, 1, 1, white)
+
+.one-hundred-fifty
+    pintas(1, 1, 1, 1, white)
+.one-hundred-fifty-one
+    pintas(1, 1, 1, 1, white)
+.one-hundred-fifty-two 
+    pintas(1, 1, 1, 1, white)
+.one-hundred-fifty-three 
+    pintas(1, 1, 1, 1, white)
+.one-hundred-fifty-four
+    pintas(1, 1, 1, 1, white)
+.one-hundred-fifty-five
+    pintas(1, 1, 1, 1, white)
+.one-hundred-fifty-six 
+    pintas(1, 1, 1, 1, white)
+.one-hundred-fifty-seven 
+    pintas(1, 1, 1, 1, white)
+.one-hundred-fifty-eight 
+    pintas(1, 1, 1, 1, white)
+.one-hundred-fifty-nine
+    pintas(1, 1, 1, 1, white)
+
+.one-hundred-sixty
+    pintas(1, 1, 1, 1, white)
+.one-hundred-sixty-one
+    pintas(1, 1, 1, 1, white)
+.one-hundred-sixty-two 
+    pintas(1, 1, 1, 1, white)
+.one-hundred-sixty-three 
+    pintas(1, 1, 1, 1, white)
+.one-hundred-sixty-four
+    pintas(1, 1,1, 1, white)
